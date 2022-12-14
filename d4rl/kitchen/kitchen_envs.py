@@ -181,10 +181,18 @@ class KitchenBase(KitchenTaskRelaxV1):
         return info
 
 
+class KitchenMicrowaveKettleBottomBurnerLightV0(KitchenBase):
+    TASK_ELEMENTS = ['microwave', 'kettle', 'bottom left burner', 'light switch',"top left burner"]
+
 class KitchenMicrowaveKettleLightTopLeftBurnerV0(KitchenBase):
     TASK_ELEMENTS = ["microwave", "kettle", "light switch", "top left burner"]
     REMOVE_TASKS_WHEN_COMPLETE = True
+class KitchenMicrowaveKettleBottomLeftBurnerLightV0(KitchenBase):
+    TASK_ELEMENTS = ["microwave", "kettle", "light switch", "top left burner"]
+    REMOVE_TASKS_WHEN_COMPLETE = True
 
+class KitchenMicrowaveKettleLightSliderV0(KitchenBase):
+    TASK_ELEMENTS = ['microwave', 'kettle', 'light switch', 'slide cabinet']
 
 class KitchenHingeSlideBottomLeftBurnerLightV0(KitchenBase):
     TASK_ELEMENTS = [
