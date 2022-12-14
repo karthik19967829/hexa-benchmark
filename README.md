@@ -1,6 +1,6 @@
 # HEXA Benchmark
 
-Codebase for the self-supervised goal reaching benchmark introduced in the [LEXA paper](https://github.com/orybkin/lexa) (Discovering and Achieving Goals via World Models, NeurIPS 2021).
+HEXA (https://github.com/karthik19967829/hexa) code base's benchmark 
 
 <img src="https://github.com/karthik19967829/hexa-benchmark/blob/main/Figure5-1.png" width="1000">
 
