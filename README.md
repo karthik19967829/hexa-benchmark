@@ -1,4 +1,4 @@
-# LEXA Benchmark
+# HEXA Benchmark
 
 Codebase for the self-supervised goal reaching benchmark introduced in the [LEXA paper](https://github.com/orybkin/lexa) (Discovering and Achieving Goals via World Models, NeurIPS 2021).
 
@@ -13,7 +13,7 @@ Alternatively, you can update an existing conda environment by running : `conda 
 
 
 Modify the python path   
-`export PYTHONPATH=<path to lexa-benchmark>`  
+`export PYTHONPATH=<path to hexa-benchmark>`  
 
 Export the following variables for rendering  
 `export MUJOCO_RENDERER=egl; export MUJOCO_GL=egl`
